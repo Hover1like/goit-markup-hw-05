@@ -440,7 +440,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 
 .container-footer-social-div{
-    display: flexbox;
+    display: block;
     max-width: 208px;
 }
 
@@ -476,7 +476,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 .footer-cont{
     display: flex;
     align-items: baseline;
-    gap: 120px;
+    margin-left: auto;
 }
 
 .footer-cont-text{
@@ -804,4 +804,12 @@ max-width: 264px;
 .modal-input:hover+.modal-input-icon,
 .modal-input:active+.modal-input-icon {
     fill: #4D5AE5;
+}
+
+.container-form{
+    margin-left: 80px;
+}
+
+.container-footer-social-div{
+    margin-left:120px;
 }
